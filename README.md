@@ -1,3 +1,4 @@
+
 # 🏡 House Price Prediction
 
 ## Project Overview
@@ -67,3 +68,57 @@ Each model was evaluated based on:
 - 🌐 **Interactive Plot (LSTAT vs MEDV) using Plotly**
 
 All plots are saved in the `images/` folder for reference.
+
+## Installation & Usage
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/house_price_prediction.git
+cd house_price_prediction
+```
+
+### **2. Create & Activate Virtual Environment**
+```bash
+# Create virtual environment
+python -m venv .venv
+
+# Activate it
+# On Windows:
+.venv\Scripts\activate
+# On macOS/Linux:
+source .venv/bin/activate
+```
+
+### **3. Install Requirements**
+```bash
+pip install -r requirements.txt
+```
+
+### **4. Run the Training Pipeline**
+```bash
+python src/train.py
+```
+
+### **5. Explore Jupyter Notebooks**
+```bash
+# Open Jupyter Lab or Notebook to explore:
+notebooks/EDA.ipynb
+notebooks/Modelling.ipynb
+```
+
+## 🚀 Future Improvements
+
+🌐 **Web App Integration**: Add a user-friendly UI using Streamlit or Flask for real-time predictions.  
+🧠 **Advanced Models**: Explore models like LightGBM, CatBoost, or Neural Networks (MLP).  
+🧹 **Feature Engineering**: Engineer better features using location clustering, binning, or PCA.  
+🔁 **Hyperparameter Tuning**: Automate optimization with Optuna or GridSearchCV.  
+🗺️ **Geo-Analysis**: Integrate maps or geospatial plots to analyze location trends better.  
+
+## 🔒 Disclaimer
+This project is built for educational and demonstration purposes only.  
+Real-world housing prices are influenced by additional unseen factors such as legal issues, neighborhood amenities, or economic conditions which are not included in this dataset.
+
+## 📫 Contact
+**Balaji Sai Tumuluri**  
+📧 balajisaitumuluri050903@gmail.com  
+
