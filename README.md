@@ -67,10 +67,3 @@ Each model was evaluated based on:
 - 🌐 **Interactive Plot (LSTAT vs MEDV) using Plotly**
 
 All plots are saved in the `images/` folder for reference.
-
-## Installation & Usage
-
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/YOUR_USERNAME/house_price_prediction.git
-cd house_price_prediction
